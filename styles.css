@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.container{
+    width: 440px;
+    display: block;
+    margin: 110px auto;
+}
+h4{
+    border-bottom: 2px solid rgb(27, 3, 3);
+    color: rgb(27, 3, 3);
+}
+.add{
+    padding: 20px;
+}
+.todo{
+    padding: 20px;
+}
+.complete{
+    padding: 20px;
+}
+li{
+    padding: 10px;
+    list-style: none;
+}
