@@ -11,15 +11,39 @@ h4{
     color: rgb(27, 3, 3);
 }
 .add{
-    padding: 20px;
+    padding: 16px;
 }
 .todo{
-    padding: 20px;
+    padding: 16px;
 }
 .complete{
-    padding: 20px;
+    padding: 16px;
 }
 li{
     padding: 10px;
     list-style: none;
+    position: relative;
+}
+
+button{
+   cursor: pointer;
+   margin: 5px;
+   padding: 5px;
+   background-color: rgb(241, 245, 245);
+   border: none;
+   
+}
+button:hover{
+    color: crimson;
+}
+label{
+    font-size: 16px;
+}
+input[type="text"] {
+    font-size: 18px;
+    line-height: 16px;
+    border: 1px solid #eee;
+    border-radius: 7px;
+    height: 32px;
+    padding: 10px;
 }
