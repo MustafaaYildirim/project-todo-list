@@ -1,44 +1,55 @@
-body{
+body {
     font-family: Arial, sans-serif;
 }
-.container{
+
+.container {
     width: 440px;
     display: block;
     margin: 110px auto;
 }
-h4{
+
+h4 {
     border-bottom: 2px solid rgb(27, 3, 3);
     color: rgb(27, 3, 3);
 }
-.add{
+
+.add {
     padding: 16px;
-}
-.todo{
-    padding: 16px;
-}
-.complete{
-    padding: 16px;
-}
-li{
-    padding: 10px;
-    list-style: none;
-    position: relative;
 }
 
-button{
-   cursor: pointer;
-   margin: 5px;
-   padding: 5px;
-   background-color: rgb(241, 245, 245);
-   border: none;
-   
+.todo {
+    padding: 16px;
 }
-button:hover{
+
+.complete {
+    padding: 16px;
+}
+
+li {
+    padding: 20px 0;
+    list-style: none;
+    position: relative;
+    border-bottom: 1px solid #eee;
+}
+
+button {
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(241, 245, 245);
+    border: none;
+    display: block;
+    background: none;
+}
+
+button:hover {
     color: crimson;
 }
-label{
+
+label {
     font-size: 16px;
 }
+
 input[type="text"] {
     font-size: 18px;
     line-height: 16px;
@@ -46,4 +57,21 @@ input[type="text"] {
     border-radius: 7px;
     height: 32px;
     padding: 10px;
+}
+
+.button-container {
+    padding: 2px;
+    display: inline-block;
+    text-align: center;
+}
+
+.edit-mode label {
+    display: none;
+}
+.edit-mode input {
+    display: inline-block;
+}
+
+.todo-input{
+    display: none;
 }
